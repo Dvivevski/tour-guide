@@ -37,3 +37,40 @@ body {
 .row-setting {
     border-bottom: 1px solid black;
 }
+
+.img-1 {
+    height: 600px;
+}
+
+.img-2, .img-3 {
+    height: 450px;
+}
+
+.gallery-images {
+    height: 360px;
+}
+
+.heading-t {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.hover-info {
+    background-color: rgba(0, 0, 0, 0.548);
+    height: 370px;
+    visibility: hidden;
+  
+}
+
+.gallery-block:hover .hover-info {
+    visibility: visible;
+  
+}
+
+.btn-setting-more {
+    border: 2px solid gray;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
