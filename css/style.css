@@ -2,6 +2,10 @@
     font-family: 'Playfair Display', serif;
 }
 
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
 
 .nav-icons {
     width: 80px;
@@ -9,5 +13,27 @@
 }
 
 .navbar {
+    border-bottom: 1px solid black;
+}
+
+.fill-image-on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.fill-image {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.btn-setting {
+    border: 1px solid gray;
+    width: 100px;
+}
+
+.row-setting {
     border-bottom: 1px solid black;
 }
