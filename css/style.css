@@ -74,3 +74,82 @@ body {
     background-color: rgba(255, 255, 255, 0);
     color: white;
 }
+
+.feature-card {
+  height: 300;
+}
+
+
+.border-setting-1 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+.border-setting-2 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+.border-setting-3 {
+    border-bottom: 1px solid black;
+}
+
+
+.border-setting-4 {
+    border-right: 1px solid black;
+}
+
+
+.border-setting-5 {
+    border-right: 1px solid black;
+}
+
+
+
+@media (max-width: 768px) {
+    .border-setting-2 {
+        border-right: none;
+    }
+    .border-setting-3 {
+        border-right: 1px solid black;
+    }
+    .border-setting-4 {
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    .un-vis {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .border-setting-1 {
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    .border-setting-2 {
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    .border-setting-3 {
+        border-bottom: 1px solid black;
+        border-right: none;
+    }
+    .border-setting-4 {
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    .border-setting-5 {
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    .border-setting-6 {
+        border-bottom: 1px solid black;
+    }
+
+    .un-vis-1 {
+        display: none;
+    }
+}
