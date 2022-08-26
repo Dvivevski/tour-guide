@@ -42,7 +42,8 @@ body {
     height: 600px;
 }
 
-.img-2, .img-3 {
+.img-2,
+.img-3 {
     height: 450px;
 }
 
@@ -53,7 +54,7 @@ body {
 .heading-t {
     margin: 0 auto;
     text-align: center;
-    
+
 }
 
 .bot-ico-set {
@@ -67,12 +68,12 @@ body {
     background-color: rgba(0, 0, 0, 0.548);
     height: 370px;
     visibility: hidden;
-  
+
 }
 
 .gallery-block:hover .hover-info {
     visibility: visible;
-  
+
 }
 
 .btn-setting-more {
@@ -83,7 +84,7 @@ body {
 }
 
 .feature-card {
-  height: 300;
+    height: 300;
 }
 
 
@@ -114,21 +115,24 @@ body {
 }
 
 
-
 @media (max-width: 768px) {
     .border-setting-2 {
         border-right: none;
     }
+
     .border-setting-3 {
         border-right: 1px solid black;
     }
+
     .border-setting-4 {
         border-right: none;
         border-bottom: 1px solid black;
     }
+
     .un-vis {
         display: none;
     }
+
     .row-form {
         width: 90%;
         margin: 0 auto;
@@ -140,22 +144,27 @@ body {
         border-right: none;
         border-bottom: 1px solid black;
     }
+
     .border-setting-2 {
         border-right: none;
         border-bottom: 1px solid black;
     }
+
     .border-setting-3 {
         border-bottom: 1px solid black;
         border-right: none;
     }
+
     .border-setting-4 {
         border-right: none;
         border-bottom: 1px solid black;
     }
+
     .border-setting-5 {
         border-right: none;
         border-bottom: 1px solid black;
     }
+
     .border-setting-6 {
         border-bottom: 1px solid black;
     }
@@ -163,6 +172,7 @@ body {
     .un-vis-1 {
         display: none;
     }
+
     .row-form {
         width: 100%;
         margin: 0 auto;
