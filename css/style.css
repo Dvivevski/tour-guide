@@ -1,0 +1,13 @@
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.nav-icons {
+    width: 80px;
+    padding: 0px 25px 0px 25px;
+}
+
+.navbar {
+    border-bottom: 1px solid black;
+}
