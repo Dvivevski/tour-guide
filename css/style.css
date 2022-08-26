@@ -56,6 +56,13 @@ body {
     
 }
 
+.bot-ico-set {
+    width: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
 .hover-info {
     background-color: rgba(0, 0, 0, 0.548);
     height: 370px;
