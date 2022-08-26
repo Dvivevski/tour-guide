@@ -122,6 +122,10 @@ body {
     .un-vis {
         display: none;
     }
+    .row-form {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 576px) {
@@ -152,4 +156,13 @@ body {
     .un-vis-1 {
         display: none;
     }
+    .row-form {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.row-form {
+    width: 70%;
+    margin: 0 auto;
 }
